@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://teleported.in/sitemap.xml

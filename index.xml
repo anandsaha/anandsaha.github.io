@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Teleported.in</title>
+    <link>https://teleported.in/</link>
+    <description>Recent content on Teleported.in</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Apr 2023 11:20:05 +0900</lastBuildDate><atom:link href="https://teleported.in/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://teleported.in/posts/my-first-post/</link>
+      <pubDate>Sun, 02 Apr 2023 11:20:05 +0900</pubDate>
+      
+      <guid>https://teleported.in/posts/my-first-post/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!</description>
+    </item>
+    
+  </channel>
+</rss>

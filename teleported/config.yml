@@ -1,0 +1,36 @@
+baseURL: https://teleported.in/
+languageCode: en-us
+title: Teleported.in
+theme: "PaperMod"
+
+
+enableRobotsTXT: true
+
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  keywords: [Blog, Portfolio, Machine Learning]
+  author: Anand Saha
+  DateFormat: "January 2, 2006"
+  defaultTheme: light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
