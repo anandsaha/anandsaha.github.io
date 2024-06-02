@@ -11,7 +11,7 @@ buildExpired: false
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
+  title: teleported.in
   description: "A personal blog about Machine Learning Systems."
   keywords: [Machine Learning Systems]
   author: Anand Saha
@@ -37,6 +37,7 @@ params:
   showtoc: false
   tocopen: false
 
+  ShareButtons: ["linkedin", "twitter"] 
 
   homeInfoParams:
     Title: A blog about Machine Learning systems
