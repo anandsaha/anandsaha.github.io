@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Teleported.in</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Teleported.in</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Mar 2024 13:06:49 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 31 Mar 2024 13:06:49 +0900</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>Hello
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices, tellus vel ultricies iaculis, velit sapien iaculis ante, a efficitur ex velit in nisi. Morbi sed est maximus eros mollis blandit. Maecenas congue imperdiet justo et posuere. Quisque bibendum auctor erat, nec luctus turpis imperdiet tincidunt. Nunc placerat, lectus sed rhoncus suscipit, dui quam iaculis ante, a consequat sapien ligula a odio. Donec ac felis pellentesque augue eleifend varius. Suspendisse iaculis ex dolor, id rhoncus tortor faucibus vitae.</description>
+    </item>
+  </channel>
+</rss>

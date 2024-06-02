@@ -1,0 +1,74 @@
+baseURL: http://teleported.in/
+languageCode: en-us
+title: Teleported.in
+theme: ["PaperMod"]
+paginate: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: ExampleSite
+  description: "A personal blog about Machine Learning Systems."
+  keywords: [Machine Learning Systems]
+  author: Anand Saha
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+
+  homeInfoParams:
+    Title: A blog about Machine Learning systems
+    Content: Can be Info, links, about...
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 1
+    - identifier: search
+      name: search site
+      url: /search/
+      weight: 2
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 3
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
